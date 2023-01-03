@@ -49,6 +49,7 @@ and to read and write their configuration (eg. in a relay, setting which buttons
 License
 -------
 
-This was developed by Christian Amsüss <c.amsuess@energyharvesting.at> and Energy Harvesting Solutions 2016-2020.
+This package was initially developed by Christian Amsüss <c.amsuess@energyharvesting.at> and Energy Harvesting Solutions 2016-2020.
+Maintainers: @michaelpiron
 
 It is published under the terms of GNU LGPL version 3 or later.
