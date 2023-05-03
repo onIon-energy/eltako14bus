@@ -1,4 +1,4 @@
-eltatakobus Python library
+eltako14bus Python library
 ==========================
 
 This repository contains a library and some tools for interacting with the Eltako Series 14 bus system,
