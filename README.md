@@ -1,4 +1,4 @@
-eltatakobus Python library
+eltako14bus Python library
 ==========================
 
 This repository contains a library and some tools for interacting with the Eltako Series 14 bus system,
@@ -7,10 +7,7 @@ which is an extension to the EnOcean Serial Protocol ESP2.
 This is part of the reverse engineering approach that allows using Eltako
 Series 14 devices without a FAM.
 
-It can work both on a direct RS485 serial connection to the bus,
-with or without a FAM14 present on the bus,
-through a FAM14's serial connection,
-or through a bespoke CoAP interface to the ESP2 protocol.
+It can work both on a direct RS485 serial connection to the bus, or through the FGW14-USB communication gateway.
 
 Tools
 -----
@@ -49,6 +46,10 @@ and to read and write their configuration (eg. in a relay, setting which buttons
 License
 -------
 
-This was developed by Christian Amsüss <c.amsuess@energyharvesting.at> and Energy Harvesting Solutions 2016-2020.
+
+This package was initially developed by Christian Amsüss <c.amsuess@energyharvesting.at> and Energy Harvesting Solutions 2016-2020.
+The package was later refactored by @JBosecker, to support FGW14-USB communication.
+Maintainer: @michaelpiron
+
 
 It is published under the terms of GNU LGPL version 3 or later.
